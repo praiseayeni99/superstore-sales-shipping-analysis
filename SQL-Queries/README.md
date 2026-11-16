@@ -1,27 +1,22 @@
 # SQL Queries – Superstore Analysis
 
-This folder contains the MySQL scripts used for data cleaning, preparation, and analysis of the Superstore dataset.
+This folder contains the MySQL script used for data cleaning and preparation of the Superstore dataset.
 
 ## SQL Scripts
 
 | File | Description |
 |---|---|
-| `01-Data-Cleaning.sql` | Converts order and shipping dates, calculates shipping duration, and adds customer order counts using a CTE and LEFT JOIN. |
+| `01-Data-Cleaning.sql` | Converts order and shipping dates into DATE data types, calculates shipping duration using DATEDIFF(), and calculates customer order counts using a CTE and LEFT JOIN. |
 
 ## SQL Skills Demonstrated
 
-- Data cleaning and preparation.
-- Date conversion using `STR_TO_DATE()`.
-- Date calculations using `DATEDIFF()`.
+- Data type conversion using STR_TO_DATE().
+- Date calculations using DATEDIFF().
 - Common Table Expressions (CTEs).
-- Aggregate functions and `GROUP BY`.
-- Table joins using `LEFT JOIN`.
-- Table creation using `CREATE TABLE AS SELECT`.
+- Aggregate functions using COUNT(DISTINCT).
+- Table joins using LEFT JOIN.
+- Data preparation for Power BI analysis.
 
-## Database
+## Next Step
 
-MySQL
-
-## Project Objective
-
-To prepare a structured dataset for sales and shipping performance analysis using SQL.
+The cleaned dataset was used in Power BI to perform sales and shipping performance analysis, develop DAX measures, and create interactive dashboards.
