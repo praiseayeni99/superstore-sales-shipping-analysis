@@ -1,10 +1,11 @@
+
 # Superstore Sales & Shipping Performance Analysis
 
 ## Project Overview
 
 This project analyses Superstore sales and shipping performance to identify revenue trends, understand product and regional sales contributions, and evaluate shipping efficiency.
 
-The analysis uses Excel, MySQL, and Power BI to clean, prepare, analyse, and visualise the dataset, translating business data into actionable insights and recommendations.
+The analysis uses Excel, SQL (MySQL), and Power BI to clean, prepare, analyse, and visualise the dataset, translating business data into actionable insights and recommendations.
 
 ## Project Objectives
 
@@ -20,10 +21,12 @@ The analysis uses Excel, MySQL, and Power BI to clean, prepare, analyse, and vis
 | Tool | Purpose |
 |---|---|
 | Excel | Data review and column organisation |
-| MySQL | Data cleaning, date conversion, calculations and data preparation |
+| SQL (MySQL) | SQL querying, data cleaning, date conversion, calculations and data preparation using MySQL |
 | Power BI | Data visualisation and interactive dashboards |
 | DAX | Measures and performance calculations |
 | GitHub | Project documentation and portfolio presentation |
+
+**Note:** SQL is the query language used to retrieve and manipulate data, while MySQL is the relational database management system used to execute SQL queries.
 
 ## Project Structure
 
@@ -31,7 +34,7 @@ The analysis uses Excel, MySQL, and Power BI to clean, prepare, analyse, and vis
 |---|---|
 | `Dashboard-Screenshots/` | Dashboard screenshots |
 | `Documentation/` | Project documentation, insights and recommendations |
-| `Power-BI-Dashboard/` | Power BI dashboard file |
+| `Power-BI-Dashboard/` | Power BI dashboard file (.pbix) |
 | `SQL-Queries/` | SQL scripts used for data preparation |
 
 ## Key Performance Indicators
@@ -41,7 +44,6 @@ The analysis uses Excel, MySQL, and Power BI to clean, prepare, analyse, and vis
 - Total Customers: 793
 - Average Order Value: $458
 - Average Shipping Duration: 3.96 days
-
 
 ## Dashboard Pages
 
@@ -59,7 +61,7 @@ The analysis uses Excel, MySQL, and Power BI to clean, prepare, analyse, and vis
 
 - Technology recorded the highest category sales at approximately $826K.
 - California recorded the highest state sales at approximately $446K.
-- November recorded the highest monthly sales at approximately $345K.
+- November recorded the highest combined monthly sales at approximately $345K across all years in the dataset.
 - Same Day was the fastest shipping mode, while Standard Class recorded the longest average shipping duration.
 
 ## Project Documentation
@@ -78,7 +80,9 @@ The SQL scripts used for data cleaning and preparation are available in the [SQL
 
 ## Power BI Dashboard
 
-The interactive Power BI report is available in the [Power-BI-Dashboard folder](Power-BI-Dashboard/).
+The Power BI dashboard file (.pbix) is available in the [Power-BI-Dashboard folder](Power-BI-Dashboard/).
+
+Download the `.pbix` file from this folder and open it using **Power BI Desktop** to explore the interactive report and its visualisations.
 
 ## Project Limitations
 
@@ -88,31 +92,35 @@ Shipping duration represents the time between order date and ship date, not the 
 
 ## Conclusion
 
-This project demonstrates practical data analysis skills using Excel, MySQL, Power BI, and DAX. It highlights the process of transforming raw business data into meaningful insights that support informed decision-making.
-
-
+This project demonstrates practical data analysis skills using Excel, SQL (MySQL), Power BI, and DAX. It highlights the process of transforming raw business data into meaningful insights that support informed decision-making.
 
 ## Dashboard Screenshots
 
 ### 1. Sales Performance
+
 ![Sales Performance](Dashboard-Screenshots/01-Sales-Performance.png)
 
 ### 2. Shipping Performance
+
 ![Shipping Performance](Dashboard-Screenshots/02-Shipping-Performance.png)
 
 ### 3. Sales Overview
+
 ![Sales Overview](Dashboard-Screenshots/03-Sales-Overview.png)
 
 ### 4. Sales Insights and Recommendations
+
 ![Sales Insights and Recommendations](Dashboard-Screenshots/04-Sales-Insights-Recommendations.png)
 
 ### 5. Shipping Insights and Recommendations
+
 ![Shipping Insights and Recommendations](Dashboard-Screenshots/05-Shipping-Insights-Recommendations.png)
 
-
 ## Key Learning Outcomes
+
 - Data cleaning and preparation.
 - SQL querying and data analysis.
 - Dashboard development and visualisation.
 - Business insight generation and analytical problem-solving.
+
   
