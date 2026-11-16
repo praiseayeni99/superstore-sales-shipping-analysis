@@ -61,3 +61,5 @@ Power BI was used for:
 - Common Table Expressions (CTEs).
 - Table joins using `LEFT JOIN`.
 - Creating a cleaned dataset using `CREATE TABLE AS SELECT`.
+- Table joins using `LEFT JOIN`.
+- Creating a cleaned dataset using `CREATE TABLE AS SELECT`.
