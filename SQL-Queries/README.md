@@ -10,7 +10,7 @@ This folder contains the MySQL script used for data cleaning and preparation of 
 
 ## SQL Skills Demonstrated
 
-- Data type conversion using STR_TO_DATE().
+- Date conversion using STR_TO_DATE().
 - Date calculations using DATEDIFF().
 - Common Table Expressions (CTEs).
 - Aggregate functions using COUNT(DISTINCT).
