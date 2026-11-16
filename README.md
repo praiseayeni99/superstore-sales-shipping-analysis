@@ -1,23 +1,96 @@
-# Superstore Sales and Shipping Performance Analysis
+# Superstore Sales & Shipping Performance Analysis
 
 ## Project Overview
 
-An end-to-end data analysis project exploring Superstore sales performance and shipping operations using Excel, MySQL, and Power BI.
+This project analyses Superstore sales and shipping performance to identify revenue trends, understand product and regional sales contributions, and evaluate shipping efficiency.
 
-The project focuses on identifying sales trends, understanding customer segments, evaluating product and regional performance, and analysing shipping efficiency to generate actionable business insights.
-
-## Tools and Technologies
-- **Excel:** Data cleaning and preparation.
-- **MySQL:** Data querying, transformation, and analysis.
-- **Power BI:** Interactive dashboards, data visualisation, and business insights.
-- **DAX:** Calculated measures and performance metrics.
+The analysis uses Excel, MySQL, and Power BI to clean, prepare, analyse, and visualise the dataset, translating business data into actionable insights and recommendations.
 
 ## Project Objectives
-- Analyse overall sales performance and trends.
-- Identify top-performing customer segments, products, and regions.
-- Evaluate monthly sales performance using MoM and YTD metrics.
-- Analyse shipping duration by shipping mode, region, month, and city.
+
+- Analyse overall sales and order performance.
+- Identify monthly sales trends and growth patterns.
+- Evaluate sales performance across customer segments and product categories.
+- Identify top-performing states and regions.
+- Analyse shipping duration across different shipping modes.
 - Develop business insights and recommendations.
+
+## Tools & Technologies
+
+| Tool | Purpose |
+|---|---|
+| Excel | Data review and column organisation |
+| MySQL | Data cleaning, date conversion, calculations and data preparation |
+| Power BI | Data visualisation and interactive dashboards |
+| DAX | Measures and performance calculations |
+| GitHub | Project documentation and portfolio presentation |
+
+## Project Structure
+
+| Folder | Contents |
+|---|---|
+| `Dashboard-Screenshots/` | Dashboard screenshots |
+| `Documentation/` | Project documentation, insights and recommendations |
+| `Power-BI-Dashboard/` | Power BI dashboard file |
+| `SQL-Queries/` | SQL scripts used for data preparation |
+
+## Key Performance Indicators
+
+- Total Sales: $2.25M
+- Total Orders: 4,916
+- Total Customers: 793
+- Average Order Value: $458
+- Average Shipping Duration: 3.96 days
+
+
+## Dashboard Pages
+
+1. **Sales Performance:** Overall sales, customer segments, product categories, state performance and monthly sales trends.
+
+2. **Shipping Performance:** Shipping duration, shipping modes and shipping performance analysis.
+
+3. **Sales Overview:** Monthly sales revenue, month-over-month growth and year-to-date performance.
+
+4. **Sales Insights and Recommendations:** Key sales findings and recommendations.
+
+5. **Shipping Insights and Recommendations:** Key shipping findings and recommendations.
+
+## Key Business Findings
+
+- Technology recorded the highest category sales at approximately $826K.
+- California recorded the highest state sales at approximately $446K.
+- November recorded the highest monthly sales at approximately $345K.
+- Same Day was the fastest shipping mode, while Standard Class recorded the longest average shipping duration.
+
+## Project Documentation
+
+Detailed project documentation is available in the [Documentation folder](Documentation/).
+
+- [Project Overview](Documentation/01-Project-Overview.md)
+- [Data Preparation](Documentation/02-Data-Preparation.md)
+- [Sales Performance](Documentation/03-Sales-Performance.md)
+- [Shipping Performance](Documentation/04-Shipping-Performance.md)
+- [Business Insights and Recommendations](Documentation/05-Business-Insights-and-Recommendations.md)
+
+## SQL Queries
+
+The SQL scripts used for data cleaning and preparation are available in the [SQL-Queries folder](SQL-Queries/).
+
+## Power BI Dashboard
+
+The interactive Power BI report is available in the [Power-BI-Dashboard folder](Power-BI-Dashboard/).
+
+## Project Limitations
+
+The dataset does not contain profit or cost information. Therefore, the analysis focuses on sales revenue and shipping performance rather than profitability.
+
+Shipping duration represents the time between order date and ship date, not the final delivery date.
+
+## Conclusion
+
+This project demonstrates practical data analysis skills using Excel, MySQL, Power BI, and DAX. It highlights the process of transforming raw business data into meaningful insights that support informed decision-making.
+
+
 
 ## Dashboard Screenshots
 
@@ -36,14 +109,10 @@ The project focuses on identifying sales trends, understanding customer segments
 ### 5. Shipping Insights and Recommendations
 ![Shipping Insights and Recommendations](Dashboard-Screenshots/05-Shipping-Insights-Recommendations.png)
 
-## Project Structure
-- `Dashboard-Screenshots/` – Power BI dashboard images.
-- `Documentation/` – Project documentation, business insights, and recommendations.
-- `Power-BI-Dashboard/` – Power BI dashboard file.
-- `SQL-Queries/` – SQL scripts used for data preparation and analysis.
 
 ## Key Learning Outcomes
 - Data cleaning and preparation.
 - SQL querying and data analysis.
 - Dashboard development and visualisation.
 - Business insight generation and analytical problem-solving.
+  
