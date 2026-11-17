@@ -7,6 +7,16 @@ This project analyses Superstore sales and shipping performance to identify reve
 
 The analysis uses Excel, SQL (MySQL), and Power BI to clean, prepare, analyse, and visualise the dataset, translating business data into actionable insights and recommendations.
 
+## Data Source
+
+The dataset used for this project was obtained from Kaggle.
+
+**Dataset:** [Superstore Sales Dataset – Kaggle](https://www.kaggle.com/datasets/bhanupratapbiswas/superstore-sales)
+
+The dataset contains sales, customer, product, order date, shipping date, and geographical information used to analyse sales performance and shipping efficiency.
+
+The dataset was prepared and analysed using Excel, MySQL, and Power BI.
+
 ## Project Objectives
 
 - Analyse overall sales and order performance.
