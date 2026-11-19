@@ -31,7 +31,7 @@ The dataset was prepared and analysed using Excel, MySQL, and Power BI.
 | Tool | Purpose |
 |---|---|
 | Excel | Data review and column organisation |
-| SQL (MySQL) | SQL querying, data cleaning, date conversion, calculations and data preparation using MySQL |
+| SQL (MySQL) | Data querying, cleaning, date conversion, calculations and preparation using MySQL|
 | Power BI | Data visualisation and interactive dashboards |
 | DAX | Measures and performance calculations |
 | GitHub | Project documentation and portfolio presentation |
@@ -79,7 +79,7 @@ The project followed four main stages:
 
 - Technology recorded the highest category sales at approximately $826K.
 - California recorded the highest state sales at approximately $446K.
-- November recorded the highest combined monthly sales at approximately $345K across all years in the dataset.
+- November recorded the highest total monthly sales, contributing approximately $345K across the years analysed.
 - Same Day was the fastest shipping mode, while Standard Class recorded the longest average shipping duration.
 
 ## Project Documentation
