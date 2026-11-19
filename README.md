@@ -36,7 +36,15 @@ The dataset was prepared and analysed using Excel, MySQL, and Power BI.
 | DAX | Measures and performance calculations |
 | GitHub | Project documentation and portfolio presentation |
 
-**Note:** SQL is the query language used to retrieve and manipulate data, while MySQL is the relational database management system used to execute SQL queries.
+
+## Project Workflow
+
+The project followed four main stages:
+
+1. **Excel – Dataset Organization:** Rearranged the dataset columns to improve data organization and readability.
+2. **MySQL – Data Cleaning and Preparation:** Converted order and shipping dates into DATE data types using `STR_TO_DATE()`, calculated shipping duration using `DATEDIFF()`, and added customer order counts using a CTE and `LEFT JOIN`.
+3. **Power BI – Data Analysis and Visualization:** Imported the cleaned dataset, developed DAX measures, analysed sales and shipping performance, and created interactive dashboards.
+4. **Business Insights and Recommendations:** Identified key sales trends, evaluated shipping efficiency, and developed actionable recommendations to support business decision-making.
 
 ## Project Structure
 
