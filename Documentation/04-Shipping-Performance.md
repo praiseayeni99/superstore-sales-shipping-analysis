@@ -2,7 +2,7 @@
 
 ## 1. Overview
 
-This section analyzes shipping performance using the Superstore dataset. The objective was to evaluate shipping duration, compare shipping modes, and identify differences in delivery performance across months, regions, and cities.
+This section analyzes shipping performance using the Superstore dataset. The objective was to evaluate shipping duration, compare shipping modes, and identify differences in shipping duration across months, regions, and cities.
 
 ## 2. Key Performance Indicators (KPIs)
 
@@ -47,14 +47,14 @@ The Central region recorded the highest average shipping duration at 4.1 days, w
 
 ## 6. Business Insights
 
-1. Standard Class had the longest average shipping duration, indicating an opportunity to review its delivery process.
-2. Same Day recorded the shortest shipping duration, meeting the expected same Day had the shortest order-to-ship duration.
+1. Standard Class had the longest average shipping duration, indicating an opportunity to review its shipping process.
+2. Same Day recorded the shortest average shipping duration at 0.0 days.
 3. Shipping duration varied across months, with March recording the lowest average.
 4. The Central region had the highest average shipping duration among the four regions.
 
 ## 7. Business Recommendations
 
-1. Review Standard Class delivery processes to identify opportunities to reduce shipping delays.
+1. Review Standard Class shipping processes to identify opportunities to reduce shipping duration.
 2. Monitor shipping performance monthly to identify periods of increased Order-to-ship duration.
 3. Investigate regional and city-level shipping differences to identify potential delivery challenges.
 4. Maintain efficient Same Day shipping operations while monitoring service consistency.
@@ -66,4 +66,4 @@ The Central region recorded the highest average shipping duration at 4.1 days, w
 
 ## 9. Conclusion
 
-The shipping analysis evaluated Order-to-ship duration across shipping modes, months, regions, and cities. The findings highlight differences in shipping performance and provide opportunities to improve delivery efficiency and monitor shipping operations.
+The shipping analysis evaluated Order-to-ship duration across shipping modes, months, regions, and cities. The findings highlight differences in shipping duration and provide opportunities to improve shipping efficiency and monitor shipping operations.
