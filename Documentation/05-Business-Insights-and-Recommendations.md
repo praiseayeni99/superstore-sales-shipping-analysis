@@ -28,7 +28,7 @@
 
 ### Recommendations
 
-- Monitor Standard Class shipping operations to identify opportunities to reduce processing and dispatch delays.
+- Review Standard Class shipping operations to identify opportunities to reduce order-to-ship duration.
 - Maintain the efficiency of Same Day shipping operations.
 - Investigate the factors contributing to longer shipping durations in the Central region.
 - Monitor monthly shipping performance to identify periods of slower order processing.
@@ -36,7 +36,7 @@
 ## 3. Overall Business Recommendations
 
 - Monitor sales trends regularly to support better business planning.
-- Use category and regional sales performance to guide inventory and marketing decisions.
+- Use category and regional sales performance to inform inventory planning and identify potential marketing opportunities.
 - Investigate significant changes in monthly revenue.
 - Monitor shipping duration across shipping modes and regions.
 - Use the dashboard's interactive filters to support more detailed business analysis.
